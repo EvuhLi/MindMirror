@@ -10,14 +10,8 @@ MindMirror is a simple web app that uses your webcam and the ChatGPT API to anal
 - Clean, fast, lightweight setup
 
 ## How It Works
-Frontend captures an image from the webcam every few seconds.
-The image is sent to the Node.js backend.
-Backend sends it to the ChatGPT Vision API.
-The API returns natural-language feedback about your emotional state.
-The frontend displays the results instantly.
+Frontend captures an image from the webcam every few seconds, and then the image is sent to the Node.js backend. The backend sends it to the ChatGPT Vision API, and the API returns natural-language feedback about your emotional state. Finally, the frontend displays the results instantly.
 
 
 ## Privacy
-Frames are not saved or stored.
-Images are only used for the immediate API call.
-You stay fully in control of your webcam.
+Frames are not saved or stored. Images are only used for the immediate API call, and you stay fully in control of your webcam.
